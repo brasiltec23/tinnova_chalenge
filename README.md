@@ -11,17 +11,11 @@ src/
 │   └── resources/              # Configurações
 └── test/                       # Testes unitários
 
-Tecnologias e Padrões Utilizados
-Java 21 (com records, pattern matching e novos métodos de coleções)
+🛠️ Tecnologias Utilizadas
+Tecnologia	Descrição	Versão
+Java	Linguagem principal	21
+Spring Boot	Framework para API REST	3.x
+JUnit + Mockito	Testes unitários	5
+Lombok	Redução de código boilerplate	1.18
+Swagger UI	Documentação interativa da API	3.0
 
-Spring Boot 3 (para a API REST)
-
-JUnit 5 + Mockito (testes unitários)
-
-Lombok (redução de boilerplate code)
-
-Swagger UI (documentação interativa da API)
-
-Clean Architecture (separação de concerns)
-
-SOLID Principles (design de código)
