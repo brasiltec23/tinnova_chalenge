@@ -1,14 +1,27 @@
 # tinnova_chalenge
 Prova de processo seletivo da TINNOVA
 
-1 - ) [VOTOS] Está localizado no pacote [base].calculator, a classe de execução é ElectionResultMain
-2 - ) [BUBBLE SORT] Está localizado no pacote [base].sort, a classe de execução é SortMain
-3 - ) [FATORIAL] Está localizado no pacote [base].calculator, a classe de execução é FactorialResultMain
-4 - ) [MÚLTIPLOS] Está localizado no pacote [base].calculator, a classe de execução é SumOfMultiplesResultMain
+src/
+├── main/
+│   ├── java/
+│   │   ├── base/
+│   │   │   ├── calculator/     # Exercícios 1, 3 e 4
+│   │   │   ├── sort/           # Exercício 2
+│   │   │   └── api/            # Exercício 5 (API completa)
+│   └── resources/              # Configurações
+└── test/                       # Testes unitários
 
-Observações:
-- Para os exercicíos 1, 3 e 4 foi utilizado conceitos de orientação a objetos e outros recursos mais sofisticados
-- O exercício 2 por ser um algoritmo mais direto conforme foi solicitado, está composto somente na classe "SortMain"
-- Para a API (exercício 5) foi criado toda a estrutura básica necessária para um micro serviço
-- Pode ser usado como interface para validar a API o swagger que está configurado na aplicação
-- Os fluxos estão com cobertura 100% de teste unitário
+Tecnologias e Padrões Utilizados
+Java 21 (com records, pattern matching e novos métodos de coleções)
+
+Spring Boot 3 (para a API REST)
+
+JUnit 5 + Mockito (testes unitários)
+
+Lombok (redução de boilerplate code)
+
+Swagger UI (documentação interativa da API)
+
+Clean Architecture (separação de concerns)
+
+SOLID Principles (design de código)
