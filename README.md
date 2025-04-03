@@ -14,4 +14,26 @@
 - Pacote: base.calculator
 - Classe principal: ElectionResultMain
 
+- 2. 🔄 Algoritmo Bubble Sort
+- Pacote: base.sort
+- Classe principal: SortMain
+
+- 3. ✖️ Cálculo Fatorial
+- Pacote: base.calculator
+- Classe principal: FactorialResultMain
+
+- 4. ➕ Soma de Múltiplos
+- Pacote: base.calculator
+- Classe principal: SumOfMultiplesResultMain
+
+- 5. � API de Veículos
+- Pacote: base.api
+= ✅ Operações CRUD completas
+- 🔍 Filtros avançados com parâmetros opcionais
+- 📊 Métricas e estatísticas
+- 📅 Consulta por veículos cadastrados na semana
+- � Documentação Swagger integrada
+
+  
+
 
