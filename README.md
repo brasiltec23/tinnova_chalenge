@@ -9,3 +9,9 @@
 - Swagger UI (documentação interativa da API)
 - Clean Architecture (separação de concerns)
 - SOLID Principles (design de código)
+
+- 1. 🗳️ Cálculo de Resultado Eleitoral
+- Pacote: base.calculator
+- Classe principal: ElectionResultMain
+
+
